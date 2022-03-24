@@ -28,5 +28,5 @@ jobs:
     - uses: actions/upload-artifact@v3
       with:
         name: my-artifac
-        path: Workshop-02-GitHub-Action/CMP186-WorkshopGitHubAction/bin/Debug/net5.0/publish/
+        path: CMP186-WorkshopGitHubAction/README.md
 
