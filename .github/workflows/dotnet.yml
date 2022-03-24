@@ -25,6 +25,8 @@ jobs:
       run: dotnet test --no-build --verbosity normal
     - name: Publish 
       run: dotnet publish CMP186-WorkshopGitHubAction/CMP186-WorkshopGitHubAction.csproj
-    - name: Upload a Build Artifact
-      uses: actions/upload-artifact@v3.0.0
+    - uses: actions/upload-artifact@v3
+      with:
+        name: my-artifac
+        path: Workshop-02-GitHub-Action/CMP186-WorkshopGitHubAction/bin/Debug/net5.0/publish/
 
